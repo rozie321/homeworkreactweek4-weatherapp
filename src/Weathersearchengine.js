@@ -31,9 +31,10 @@ export default function Weatherpattern() {
   }
   let form = (
     <form action="" onSubmit={Handlesubmit}>
-      <input type="search" onChange={Updatecity} />
+      <input type="search" value="Enter a city" onChange={Updatecity} />
 
-      <input type="submit" value="Search" />
+      <input type="submit" value="SEARCH" />
+      <input type="submit" value="CURRENT"/>
     </form>
   );
   if (showing) {
