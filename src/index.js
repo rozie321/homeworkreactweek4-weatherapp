@@ -9,7 +9,7 @@ const root = createRoot(rootElement);
 root.render(
   <StrictMode>
     <h1>Weather App</h1>
-    <App/>
+    <App />
     <Weathersearchengine />
   </StrictMode>
 );
