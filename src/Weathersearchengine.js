@@ -10,6 +10,7 @@ export default function Weatherpattern() {
     console.log(response.data);
     setShowing(true);
     setWeatherpattern({
+  
       temperature: response.data.main.temp,
       wind: response.data.wind.speed,
       humidity: response.data.main.humidity,
@@ -27,7 +28,8 @@ export default function Weatherpattern() {
     console.log(apiUrl);
   }
   function Updatecity(event) {
-    setCity(event.target.value);
+   
+   const currentCity = setCity(event.target.value);
   }
   let form = (
     <form action="" onSubmit={Handlesubmit}>
@@ -37,6 +39,12 @@ export default function Weatherpattern() {
       <input type="submit" value="CURRENT"/>
     </form>
   );
+  const Displayedcities=['Lisbon','Paris','Sydney','Sanfrancisco']
+  //catering for the cities at the top with hyperlinks
+  // //do i add weather app url or do i use weather pattern funcion
+  for(i=1,i<=Displayedcities.length i++){
+
+  }
   if (showing) {
     return (
       <div>
