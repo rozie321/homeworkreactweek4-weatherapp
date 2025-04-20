@@ -1,17 +1,17 @@
-import { StrictMode } from "react";
-import { createRoot } from "react-dom/client";
-import Weathersearchengine from "./Weathersearchengine";
-import App from "./App";
-import Weekdays from "./Weekdays";
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
+import App from './App';
+import Displaycities from './Displaycities';
 
-const rootElement = document.getElementById("root");
-const root = createRoot(rootElement);
 
+const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <StrictMode>
-    <h1>Weather App</h1>
+  <React.StrictMode>
+    <Displaycities />
     <App />
-    <Weathersearchengine />
-    <Weekdays />
-  </StrictMode>
+
+  </React.StrictMode>
 );
+
+

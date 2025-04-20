@@ -1,20 +1,25 @@
-export default function App(){
-  return(
-    <div>
-      <ul>
-        <li>
-          <a href="#">Lisbon</a>
-        </li>
-        <li>
-          <a href="#">Paris</a>
-        </li>
-        <li>
-          <a href="#">Sydney</a>
-        </li>
-        <li>
-          <a href="#">Sanfrancisco</a>
-        </li>
-      </ul>
+
+import './App.css';
+
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <h1>Hello from Weather</h1>
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
     </div>
-  )
+  );
 }
+
+export default App;
