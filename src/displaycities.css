@@ -1,0 +1,9 @@
+a {
+    text-decoration: none;
+    margin-inline: 20px;
+}
+.diplaycitiesdiv{
+    display:flex;
+
+    padding-bottom: 20px;
+}
