@@ -1,16 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
-import Displaycities from './Displaycities';
 
+import Displaycities from './Displaycities';
+import Searchcities from './Searchcities';
+import CurrentWeather from './CurrentWeather';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Displaycities />
-    <App />
-
+    <Searchcities />
+  
+  <CurrentWeather />
   </React.StrictMode>
 );
 
