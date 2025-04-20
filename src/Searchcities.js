@@ -4,8 +4,8 @@ export default function Searchcities() {
     return (
         <div className='searchcitiesdiv'>
             <input type="text" placeholder="Enter city name"/>
-            <button classname= 'greenbutton'>Search</button>
-            <button classname='bluebutton'>Current</button>
+            <button className= 'greenbutton'>Search</button>
+            <button className='bluebutton'>Current</button>
         </div>
     );
 }

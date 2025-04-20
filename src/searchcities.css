@@ -1,16 +1,39 @@
     .searchcitiesdiv{
-        display:inline;
         margin-top: 20px;
         padding-top:20px;
         margin-bottom: 20px;
         padding-bottom: 20px;
     }
 
+    .searchcitiesdiv input{
+        width: 50%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+    }
+
+    button{
+       
+        border: none; /* Remove borders */
+        color: white; /* White text */
+        padding: 15px 32px; /* Add some padding */
+        text-align: center; /* Centered text */
+        text-decoration: none; /* Remove underline */
+        display: inline-block; /* Make the links look like buttons */
+        font-size: 16px; /* Increase font size */
+        margin: 4px 2px; /* Add some margin */
+        cursor: pointer; /* Pointer/hand icon */
+        border-radius: 12px; /* Rounded corners */
+    }
+
     .greenbutton{
         background-color: green; /* Green */
+        
         
     }
     .bluebutton{
         background-color: blue; /* Blue */
-    
+        
     }
