@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-import axios from "axios"
-import Weathersearchengine from "./Weathersearchengine"
 
 export  default function Dailyforecast(props){
    const [Forecasthtml, setForecasthtml] = useState("");
