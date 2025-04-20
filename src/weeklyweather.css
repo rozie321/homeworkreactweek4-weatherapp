@@ -9,3 +9,10 @@ td{
     text-align: inherit;
     vertical-align: inherit;
 }
+footer a{
+    color:darkcyan;
+    text-decoration: none;
+    font-size: inherit;
+    font-family: inherit;
+    background-color: transparent;
+}

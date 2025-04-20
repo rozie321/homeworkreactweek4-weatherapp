@@ -15,6 +15,10 @@ export default function Weeklyweather() {
                     </tr>
                 </tbody>
             </table>
+            <footer>
+                <a href="https://github.com/rozie321/homeworkreactweek4-weatherapp" rel="noreferrer" target='_blank'>Open-Source</a>code by<a href="https://homeworkreactweek4-weatherapp.netlify.app/" rel="noreferrer" target='_blank'>Roselyn manegene</a>from<a href ="https://www.shecodes.io/" rel="noreferrer" target='_blank' >shecodes</a>
+            </footer>
         </div>
+        
     );
 }
